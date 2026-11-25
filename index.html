@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Krav Maga Rzeszów od 2003 roku | Podkarpacka Szkoła Krav Maga</title>
+<meta name="description" content="Krav Maga i samoobrona w Rzeszowie, Cmolasie i Kolbuszowej. Grupy dla dzieci od 6 lat, młodzieży, kobiet, dorosłych i seniorów oraz szkolenia dla firm, szkół i instytucji.">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="img/logo-96.png">
+<link rel="preload" as="image" href="img/hero-640.webp" imagesrcset="img/hero-640.webp 640w, img/hero-960.webp 960w, img/hero-1280.webp 1280w, img/hero-1848.webp 1848w" imagesizes="(max-width:760px) 540px, min(100vw,2000px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-condensed-latin-700.woff2" crossorigin>
+<style>
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-latin-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026}
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-pl-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0100-024F}
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-latin-600.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026}
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-pl-600.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0100-024F}
+@font-face{font-family:Barlow;src:url(fonts/barlow-400-r.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Barlow;src:url(fonts/barlow-400-pl.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Barlow;src:url(fonts/barlow-600-r.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Barlow;src:url(fonts/barlow-600-pl.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--red:#d20000;--red2:#b00000;--ink:#111111;--txt:#2a2a2a;--mut:#5c5f63;--g:#f1f2f4;--line:#dcdee2;--hh:64px;--w:min(calc(100vw - 32px),1360px)}
+@media (min-width:900px){:root{--hh:84px;--w:min(calc(100vw - 80px),1360px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--txt);font:17px/1.6 Barlow,Arial,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:BC,"Arial Narrow",Arial,sans-serif;font-weight:700;color:var(--ink);line-height:1.04;margin:0;letter-spacing:.005em}
+h2{font-size:clamp(34px,4.6vw,58px)}
+h3{font-size:26px;line-height:1.1}
+p{margin:0 0 14px}
+.wrap{width:var(--w);margin:0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;font:700 19px/1 BC,Arial,sans-serif;letter-spacing:.02em;text-decoration:none;border:3px solid var(--red);background:var(--red);color:#fff;transition:background .2s,border-color .2s,color .2s;cursor:pointer}
+.btn:hover{background:var(--red2);border-color:var(--red2)}
+.btn.out{background:transparent;border-color:#fff;color:#fff}
+.btn.out:hover{background:#fff;color:var(--ink)}
+.btn.dark{background:transparent;border-color:var(--ink);color:var(--ink)}
+.btn.dark:hover{background:var(--ink);color:#fff}
+/* tabliczka z rokiem - z ramki "2004" w logo */
+.plate{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;border:3px solid currentColor;padding:4px 12px 3px;font-family:BC,Arial,sans-serif;font-weight:700;line-height:.95;text-align:center}
+.plate small{font-size:13px;font-weight:600;letter-spacing:.06em}
+.plate b{font-size:34px}
+
+/* nagłówek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);height:var(--hh)}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand img{width:48px;height:auto}
+.brand span{font:700 19px/1 BC,Arial,sans-serif;display:block}
+.brand .m{display:none}
+.brand small{display:block;font:600 14px/1.2 Barlow,Arial,sans-serif;color:var(--mut);margin-top:3px}
+@media (max-width:440px){.brand small{display:none}.brand .m{display:inline}.brand span{font-size:19px;line-height:1.05}}
+@media (min-width:900px){.brand img{width:62px}.brand span{font-size:22px}}
+.nav{display:none}
+.nav a{text-decoration:none;font:700 19px/1 BC,Arial,sans-serif;color:var(--ink);padding:8px 2px;border-bottom:3px solid transparent}
+.nav a:hover,.nav a.on{border-bottom-color:var(--red)}
+.nav .btn{min-height:46px;padding:0 18px;color:#fff;border-bottom:3px solid var(--red)}
+.burger{width:48px;height:48px;border:3px solid var(--ink);background:#fff;display:grid;place-items:center;cursor:pointer;padding:0}
+.burger i{display:block;width:22px;height:3px;background:var(--ink);box-shadow:0 -7px 0 var(--ink),0 7px 0 var(--ink)}
+@media (min-width:1100px){.nav{display:flex;align-items:center;gap:26px}.burger{display:none}}
+.drawer{position:fixed;inset:var(--hh) 0 0 0;background:#fff;z-index:49;padding:18px 16px 30px;display:none;flex-direction:column;overflow:auto}
+.drawer.open{display:flex}
+.drawer a{text-decoration:none;font:700 30px/1 BC,Arial,sans-serif;color:var(--ink);padding:14px 0;border-bottom:1px solid var(--line)}
+.drawer .btn{margin-top:22px;font-size:21px;color:#fff;border-bottom:3px solid var(--red)}
+.drawer .tel{border:0;font-size:22px;color:var(--red)}
+
+/* pierwszy ekran */
+.hero{position:relative;background:var(--ink);color:#fff}
+.hero-in{position:relative;max-width:2000px;margin:0 auto;display:flex;flex-direction:column;min-height:calc(100svh - var(--hh))}
+.hero picture{position:relative;flex:1 1 auto;min-height:170px;max-height:430px;display:block}
+.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:34% 28%}
+.hero-txt{flex:none;padding:18px 16px 22px;background:var(--ink)}
+.hero h1{color:#fff;font-size:clamp(32px,8.8vw,40px);max-width:16ch}
+.hero p{color:#e3e3e3;font-size:16.5px;line-height:1.45;margin:10px 0 0;max-width:46ch}
+.hero .cta{display:flex;flex-direction:column;gap:10px;margin-top:24px}
+.hero .btn{min-height:50px}
+.hero .where{display:none}
+@media (min-width:761px){
+ .hero-in{max-width:none;flex-direction:row-reverse;min-height:0;height:min(calc(100svh - var(--hh)),1000px);min-height:560px}
+ .hero picture{flex:0 0 62%;max-height:none}
+ .hero picture::after{content:"";position:absolute;top:0;bottom:0;left:-1px;width:22%;background:linear-gradient(to right,#111 0%,rgba(17,17,17,.6) 45%,rgba(17,17,17,0) 100%)}
+ .hero picture img{object-position:30% 30%}
+ .hero-txt{flex:1;display:flex;align-items:center;padding:48px 0 48px max(40px,calc((100vw - 1360px)/2));position:relative;z-index:1;margin-right:-6%}
+ .hero-txt .wrap{width:auto;margin:0}
+ .hero h1{font-size:clamp(44px,4.1vw,76px);max-width:13ch}
+ .hero p{font-size:19px;margin-top:20px;max-width:40ch}
+ .hero .cta{flex-direction:row;flex-wrap:wrap;gap:14px;margin-top:30px}
+ .hero .btn{min-height:56px;font-size:20px;padding:0 26px}
+ .hero .where{display:block;margin-top:22px;font-size:15px;color:#a8a8a8}
+}
+
+/* sekcje */
+section{padding:64px 0}
+@media (min-width:900px){section{padding:104px 0}}
+.grey{background:var(--g)}
+.head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 40px;margin-bottom:30px}
+.head p{max-width:56ch;color:var(--mut);margin:0}
+.lead{font-size:19px;max-width:62ch}
+
+/* przewijane rzędy */
+.row{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;cursor:grab;-webkit-overflow-scrolling:touch}
+.row::-webkit-scrollbar{display:none}
+.row.drag{cursor:grabbing;scroll-snap-type:none}
+.row>*{scroll-snap-align:start;flex:none}
+.row img{pointer-events:none;user-select:none}
+.ctrl{display:flex;gap:10px}
+.ctrl button{width:50px;height:50px;border:3px solid var(--ink);background:transparent;cursor:pointer;display:grid;place-items:center;padding:0}
+.ctrl button:hover{background:var(--ink)}
+.ctrl button:hover svg{stroke:#fff}
+.ctrl svg{width:22px;height:22px;stroke:var(--ink);fill:none;stroke-width:3}
+
+/* oferta */
+.card{width:min(82vw,400px);background:#fff;border:1px solid var(--line);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.card div{padding:20px 20px 24px;display:flex;flex-direction:column;flex:1}
+.card p{color:var(--mut);margin:10px 0 16px}
+.card a{margin-top:auto;font:700 18px/1 BC,Arial,sans-serif;color:var(--red);text-decoration:none;border-bottom:3px solid var(--red);align-self:flex-start;padding-bottom:4px}
+.more{margin-top:34px;display:flex;flex-wrap:wrap;gap:10px 28px;color:var(--mut);font-size:16px}
+.more b{color:var(--ink);font-weight:600}
+
+/* historia */
+.yr{width:min(78vw,340px);display:flex;flex-direction:column}
+.yr .ph{position:relative}
+.yr img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.yr .plate{position:absolute;left:12px;bottom:12px;background:#fff;color:var(--ink)}
+.yr .plate b{font-size:30px}
+.yr p{margin:14px 2px 0;font-size:16px;line-height:1.45}
+.yr.txt{background:var(--ink);color:#fff;padding:22px 22px 26px;justify-content:space-between;min-height:100%}
+.yr.txt .plate{position:static;align-self:flex-start;color:#fff;background:transparent}
+.yr.txt .plate b{font-size:52px}
+.yr.txt p{color:#dedede;font-size:17px;margin:0}
+.yr.txt.red{background:var(--red)}
+.yr.txt.red p{color:#fff}
+@media (min-width:900px){.yr{width:380px}}
+
+/* szkolenia - ciemna */
+.dark{background:var(--ink);color:#d6d6d6}
+.dark h2,.dark h3{color:#fff}
+.split{display:grid;gap:32px}
+@media (min-width:980px){.split{grid-template-columns:1fr 1fr;gap:64px;align-items:start}}
+.list{list-style:none;margin:22px 0 28px;padding:0;border-top:1px solid #333}
+.list li{padding:15px 0;border-bottom:1px solid #333;display:grid;gap:2px}
+.list b{color:#fff;font-weight:600}
+.list span{color:#a9a9a9;font-size:15px}
+.dark .photo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.dark .photo p{font-size:14px;color:#8e8e8e;margin-top:10px}
+
+/* kadra */
+.team{display:grid;gap:28px}
+@media (min-width:980px){.team{grid-template-columns:1.45fr 1fr;gap:56px;align-items:center}}
+.team .big img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.head-coach{display:grid;grid-template-columns:118px 1fr;gap:18px;align-items:start;margin-bottom:22px}
+.head-coach img{width:118px;height:120px;object-fit:cover}
+.names{list-style:none;padding:0;margin:18px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:0 20px}
+.names li{padding:10px 0;border-bottom:1px solid var(--line);font-weight:600;color:var(--ink)}
+.names li span{display:block;font-weight:400;font-size:14px;color:var(--mut)}
+
+/* opinie */
+.op{width:min(84vw,420px);border-top:4px solid var(--red);background:#fff;padding:22px 22px 24px}
+.op p{font-size:18px;color:var(--ink)}
+.op cite{font-style:normal;font-size:15px;color:var(--mut)}
+
+/* oddziały */
+.places{display:grid;gap:16px;margin-top:8px}
+@media (min-width:760px){.places{grid-template-columns:repeat(3,1fr)}}
+.place{border:3px solid var(--ink);padding:22px}
+.place h3{margin-bottom:8px}
+.place p{margin:0;color:var(--mut)}
+.free{margin-top:30px;display:grid;gap:20px;align-items:center}
+@media (min-width:900px){.free{grid-template-columns:1fr auto}}
+.free p{margin:0;font-size:19px;color:var(--ink);max-width:60ch}
+
+/* kontakt */
+.contact{display:grid;gap:34px}
+@media (min-width:980px){.contact{grid-template-columns:1fr 1.1fr;gap:56px}}
+.cinfo a.tel{display:inline-block;font:700 clamp(36px,5vw,52px)/1 BC,Arial,sans-serif;color:var(--red);text-decoration:none;margin:18px 0 8px}
+.cinfo p{margin:0 0 8px}
+form{display:grid;gap:14px}
+label{font-weight:600;font-size:15px;color:var(--ink);display:grid;gap:6px}
+input,select,textarea{font:inherit;font-size:17px;padding:13px 14px;border:2px solid #c9ccd1;background:#fff;color:var(--ink);border-radius:0;width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink)}
+textarea{min-height:120px;resize:vertical}
+.f2{display:grid;gap:14px}
+@media (min-width:600px){.f2{grid-template-columns:1fr 1fr}}
+.note{font-size:14px;color:var(--mut)}
+.map{margin-top:26px;aspect-ratio:16/10;background:#e6e7ea;border:1px solid var(--line)}
+.map iframe{width:100%;height:100%;border:0;display:block}
+
+/* stopka */
+footer{background:#000;color:#b9b9b9;padding:48px 0 28px;font-size:15px}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px 20px}
+@media (min-width:900px){.fgrid{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+.fgrid .fb{grid-column:1/-1}
+@media (min-width:900px){.fgrid .fb{grid-column:auto}}
+.fgrid img{width:120px;height:auto}
+footer h4{font:700 19px/1 BC,Arial,sans-serif;color:#fff;margin:0 0 12px}
+footer a{text-decoration:none}
+footer a:hover{color:#fff}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.fbot{margin-top:36px;padding-top:18px;border-top:1px solid #262626;display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center}
+.fbot .plate{color:#fff;flex-direction:row;gap:8px;padding:4px 10px}
+.fbot .plate b{font-size:20px}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="wrap">
+  <a class="brand" href="#top" aria-label="Podkarpacka Szkoła Krav Maga - strona główna">
+   <img src="img/logo-96.png" srcset="img/logo-96.png 96w, img/logo-192.png 192w" sizes="62px" width="96" height="100" alt="Logo Podkarpackiej Szkoły Krav Maga">
+   <span>Podkarpacka Szkoła<br class="m"> Krav Maga<small>Samoobrona w Rzeszowie od 2003 roku</small></span>
+  </a>
+  <nav class="nav" aria-label="Menu główne">
+   <a href="#oferta">Oferta</a><a href="#historia">Historia</a><a href="#szkolenia">Dla firm i instytucji</a><a href="#kadra">Kadra</a><a href="#oddzialy">Oddziały</a><a href="#kontakt">Kontakt</a>
+   <a class="btn" href="#kontakt">Zapisz się</a>
+  </nav>
+  <button class="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="drawer"><i></i></button>
+ </div>
+</header>
+<div class="drawer" id="drawer">
+ <a href="#oferta">Oferta</a><a href="#historia">Historia</a><a href="#szkolenia">Dla firm i instytucji</a><a href="#kadra">Kadra</a><a href="#oddzialy">Oddziały</a><a href="#kontakt">Kontakt</a>
+ <a class="btn" href="#kontakt">Zapisz się na trening</a>
+ <a class="tel" href="tel:+48605056988">tel. 605 056 988</a>
+</div>
+
+<main id="top">
+<section class="hero" style="padding:0">
+ <div class="hero-in">
+  <picture>
+   <img src="img/hero-960.webp" srcset="img/hero-640.webp 640w, img/hero-960.webp 960w, img/hero-1280.webp 1280w, img/hero-1848.webp 1848w" sizes="(max-width:760px) 540px, min(100vw,2000px)" width="1848" height="1100" fetchpriority="high" alt="Andrzej Płaza pokazuje obronę przed szantażem nożem na seminarium Podkarpackiej Szkoły Krav Maga">
+  </picture>
+  <div class="hero-txt">
+   <div class="wrap">
+    <h1>Krav Maga i samoobrona w Rzeszowie od 2003 roku</h1>
+    <p>Grupy dla dzieci od 6 lat, młodzieży, kobiet, dorosłych i seniorów. Uczymy reagowania na zagrożenie i stawiania granic, bo wygrywasz wtedy, gdy nie musisz walczyć.</p>
+    <div class="cta">
+     <a class="btn" href="#kontakt">Zapisz się na nabór w styczniu</a>
+     <a class="btn out" href="tel:+48605056988">Zadzwoń: 605 056 988</a>
+    </div>
+    <div class="where">Rzeszów, ul. Hanasiewicza 10 &middot; Cmolas &middot; Kolbuszowa</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="oferta">
+ <div class="wrap">
+  <div class="head">
+   <h2>Dla kogo trenujemy</h2>
+   <div class="ctrl" data-for="r-oferta"><button aria-label="Poprzednie"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><button aria-label="Następne"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+  <div class="row" id="r-oferta">
+   <article class="card"><img srcset="img/kobiety2-480.webp 480w, img/kobiety2-720.webp 720w, img/kobiety2-960.webp 960w" sizes="(max-width:500px) 92vw, 460px" src="img/kobiety2-480.webp" width="960" height="720" loading="lazy" alt="Uczestniczki warsztatów samoobrony Siła jest kobietą w Czudcu, 2020"><div><h3>Kurs samoobrony dla kobiet</h3><p>Trzymiesięczny kurs od podstaw. Nowy nabór rusza w połowie stycznia 2027, zajęcia wieczorem około 20:00.</p><a href="#kontakt">Zapisz się na kurs</a></div></article>
+   <article class="card"><img srcset="img/mlodziez-480.webp 480w, img/mlodziez-720.webp 720w, img/mlodziez-960.webp 960w, img/mlodziez-1200.webp 1200w" sizes="(max-width:500px) 92vw, 460px" src="img/mlodziez-480.webp" width="720" height="519" loading="lazy" alt="Uczniowie z tarczami treningowymi po warsztatach bezpieczeństwa w Nisku"><div><h3>Dzieci i młodzież</h3><p>Grupy dla dzieci od 6 lat i młodzieży. Ruch, koordynacja i wiedza o tym, jak zachować się w sytuacji zagrożenia, także w sieci.</p><a href="#kontakt">Zapytaj o grupę</a></div></article>
+   <article class="card"><img srcset="img/dorosli-480.webp 480w, img/dorosli-720.webp 720w, img/dorosli-960.webp 960w, img/dorosli-1200.webp 1200w" sizes="(max-width:500px) 92vw, 460px" src="img/dorosli-480.webp" width="720" height="477" loading="lazy" alt="Trening walki w parterze na seminarium Ground Fighting 2020"><div><h3>Dorośli</h3><p>Regularne sekcje Krav Maga, także Military. Walka w stójce i w parterze, obrony przed duszeniem, nożem i kijem.</p><a href="#kontakt">Zapisz się na listę</a></div></article>
+   <article class="card"><img srcset="img/sluzby-480.webp 480w, img/sluzby-720.webp 720w, img/sluzby-960.webp 960w" sizes="(max-width:500px) 92vw, 460px" src="img/sluzby-480.webp" width="720" height="540" loading="lazy" alt="Szkolenie z taktyki i technik prowadzenia interwencji 2019"><div><h3>Firmy, szkoły i instytucje</h3><p>Szkolenia dla MOPS i GOPS, szkół, kuratorów, ratowników i domów seniorów, z programem dopasowanym do pracy zespołu.</p><a href="#szkolenia">Zobacz szkolenia</a></div></article>
+  </div>
+  <div class="more"><b>Także:</b><span>treningi indywidualne</span><span>obozy Krav Maga</span><span>obozy survivalowe</span><span>kursy strzeleckie</span><span>techniki interwencji</span><span>oferta eventowa</span></div>
+ </div>
+</section>
+
+<section id="historia" class="grey">
+ <div class="wrap">
+  <div class="head">
+   <h2>Ponad 20 lat na macie</h2>
+   <p>Historia klubu to tysiące godzin treningów, obozy, seminaria i egzaminy. Oto kilka kartek z naszego albumu.</p>
+   <div class="ctrl" data-for="r-hist"><button aria-label="Poprzednie"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><button aria-label="Następne"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+  <div class="row" id="r-hist">
+   <div class="yr txt"><span class="plate"><b>2003</b></span><p>Początek historii klubu w Rzeszowie.</p></div>
+   <div class="yr txt"><span class="plate"><b>2004</b></span><p>Ruszamy jako Podkarpacka Szkoła Krav Maga w obecnej formie, pierwszy tak kompleksowy ośrodek Krav Maga w regionie.</p></div>
+   <div class="yr txt"><span class="plate"><b>2005</b></span><p>Andrzej Płaza zdobywa izraelskie uprawnienia instruktorskie nadane przez Eyala Yanilova, współtwórcę systemu.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2013-480.webp 480w, img/h2013-720.webp 720w, img/h2013-960.webp 960w, img/h2013-1200.webp 1200w" sizes="(max-width:500px) 88vw, 440px" src="img/h2013-480.webp" width="720" height="540" loading="lazy" alt="Obóz Extreme Day 2013"><span class="plate"><b>2013</b></span></div><p>Kolejna edycja obozu Extreme Day.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2014-480.webp 480w, img/h2014-720.webp 720w, img/h2014-960.webp 960w, img/h2014-1200.webp 1200w" sizes="(max-width:500px) 88vw, 440px" src="img/h2014-480.webp" width="720" height="477" loading="lazy" alt="Seminarium maczeta z Tomaszem Adamczykiem 2014"><span class="plate"><b>2014</b></span></div><p>Seminarium z maczetą z Tomaszem Adamczykiem.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2017-480.webp 480w, img/h2017-720.webp 720w, img/h2017-960.webp 960w, img/h2017-1200.webp 1200w" sizes="(max-width:500px) 88vw, 440px" src="img/h2017-480.webp" width="720" height="540" loading="lazy" alt="Działania w terenie zurbanizowanym 2017"><span class="plate"><b>2017</b></span></div><p>Działania w terenie zurbanizowanym.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2018-480.webp 480w, img/h2018-720.webp 720w, img/h2018-960.webp 960w, img/h2018-1200.webp 1200w" sizes="(max-width:500px) 105vw, 520px" src="img/h2018-480.webp" width="720" height="410" loading="lazy" alt="Seminarium Krav Maga Boxing 2018"><span class="plate"><b>2018</b></span></div><p>Seminarium Krav Maga Boxing.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2019-480.webp 480w, img/h2019-720.webp 720w, img/h2019-960.webp 960w, img/h2019-1200.webp 1200w" sizes="(max-width:500px) 88vw, 440px" src="img/h2019-480.webp" width="720" height="540" loading="lazy" alt="Seminarium City Extreme w autobusie 2019"><span class="plate"><b>2019</b></span></div><p>City Extreme: samoobrona w autobusie.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2020-480.webp 480w, img/h2020-720.webp 720w, img/h2020-960.webp 960w, img/h2020-1200.webp 1200w" sizes="(max-width:500px) 88vw, 440px" src="img/h2020-480.webp" width="720" height="477" loading="lazy" alt="Seminarium Krav Maga w Jaśle 2020"><span class="plate"><b>2020</b></span></div><p>Seminarium Krav Maga w Jaśle.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2021-480.webp 480w, img/h2021-720.webp 720w, img/h2021-960.webp 960w, img/h2021-1200.webp 1200w" sizes="(max-width:500px) 88vw, 440px" src="img/h2021-480.webp" width="720" height="540" loading="lazy" alt="Obóz Krav Maga Kadet 2021"><span class="plate"><b>2021</b></span></div><p>Obóz Krav Maga Kadet.</p></div>
+   <div class="yr txt red"><span class="plate"><b>2025</b></span><p>Podkarpacka Szkoła Krav Maga świętuje 20-lecie.</p></div>
+   <div class="yr"><div class="ph"><img srcset="img/h2026-480.webp 480w, img/h2026-720.webp 720w, img/h2026-960.webp 960w, img/h2026-1200.webp 1200w" sizes="(max-width:500px) 88vw, 440px" src="img/h2026-480.webp" width="720" height="465" loading="lazy" alt="Uczestnicy treningu City Extreme 11.11.2026 w Rzeszowie"><span class="plate"><b>2026</b></span></div><p>Samoobrona poza schematem: City Extreme 11.11 na parkingu.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="szkolenia" class="dark">
+ <div class="wrap split">
+  <div>
+   <h2>Szkolenia dla firm, szkół i instytucji</h2>
+   <p class="lead" style="margin-top:18px">Bezpieczeństwo osobiste, deeskalacja agresji, reagowanie w sytuacjach zagrożenia i praktyczne techniki samoobrony. Program układamy pod specyfikę pracy i zagrożeń w danym zespole.</p>
+   <ul class="list">
+    <li><b>Pogotowie ratunkowe, ratownicy medyczni</b><span>Deeskalacja agresji i techniki samoobrony, aspekty prawne &middot; listopad/grudzień 2026</span></li>
+    <li><b>Miejski Ośrodek Pomocy Społecznej</b><span>Bezpieczeństwo w pracy środowiskowej, w biurze i w terenie &middot; styczeń-grudzień 2026</span></li>
+    <li><b>Szkoła podstawowa: uczniowie, nauczyciele, rodzice</b><span>Reagowanie na atak z użyciem noża, pierwsza pomoc, warsztat dla rodziców &middot; listopad 2026 - styczeń 2027</span></li>
+    <li><b>Liceum ogólnokształcące</b><span>Procedury przy wtargnięciu osoby niebezpiecznej, zajęcia dla uczniów i kadry &middot; luty 2027</span></li>
+    <li><b>Młodzieżowy Ośrodek Wychowawczy</b><span>Reagowanie w sytuacjach zagrożenia dla kadry placówki &middot; styczeń/luty 2027</span></li>
+   </ul>
+   <a class="btn" href="#kontakt">Zapytaj o program dla zespołu</a>
+  </div>
+  <div class="photo">
+   <img src="img/egzamin-720.webp" srcset="img/egzamin-480.webp 480w, img/egzamin-720.webp 720w, img/egzamin-960.webp 960w, img/egzamin-1400.webp 1400w" sizes="(max-width:980px) 100vw, 640px" width="960" height="720" loading="lazy" alt="Klubowicze Podkarpackiej Szkoły Krav Maga ustawieni na macie podczas egzaminu 2019">
+   <p>Egzamin Krav Maga 2019.</p>
+  </div>
+ </div>
+</section>
+
+<section id="kadra">
+ <div class="wrap team">
+  <div class="big"><img src="img/kadra-960.webp" srcset="img/kadra-640.webp 640w, img/kadra-960.webp 960w, img/kadra-1400.webp 1400w" sizes="(max-width:980px) 100vw, 780px" width="1400" height="933" loading="lazy" alt="Trenerzy Podkarpackiej Szkoły Krav Maga na macie"></div>
+  <div>
+   <h2>Kadra</h2>
+   <div class="head-coach" style="margin-top:24px">
+    <img src="img/andrzej-375.webp" width="375" height="380" loading="lazy" alt="Andrzej Płaza, główny trener i założyciel">
+    <div><h3>Andrzej Płaza</h3><p style="margin:6px 0 0;color:var(--mut)">Główny trener i założyciel. Izraelskie uprawnienia zdobył w 2005 roku, nadane przez Eyala Yanilova, i od tamtej pory stale się szkoli.</p></div>
+   </div>
+   <ul class="names">
+    <li>Radosław Zarych<span>instruktor, wychowanek szkoły</span></li>
+    <li>Rafał Ziętek<span>asystent</span></li>
+    <li>Jakub Mączka<span>asystent</span></li>
+    <li>Paweł Wiejowski<span>asystent</span></li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="grey">
+ <div class="wrap">
+  <div class="head">
+   <h2>Opinie z Google</h2>
+   <div class="ctrl" data-for="r-op"><button aria-label="Poprzednie"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><button aria-label="Następne"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+  <div class="row" id="r-op">
+   <blockquote class="op" style="margin:0"><p>Gorąco polecam! Najlepsza szkoła, do jakiej można trafić. Treningi pod okiem trenera Andrzeja, satysfakcja gwarantowana.</p><cite>Marlena Staszowska</cite></blockquote>
+   <blockquote class="op" style="margin:0"><p>Na zajęciach panuje dyscyplina, co mi się bardzo podoba. Instruktorzy kładą duży nacisk na technikę, wytrzymałość i realne sytuacje.</p><cite>Przemysław Durał</cite></blockquote>
+   <blockquote class="op" style="margin:0"><p>W zajęciach uczestniczy syn i mąż i są mega zadowoleni. Zajęcia intensywne, instruktor profesjonalny, a wiedza użyteczna.</p><cite>Iwona R</cite></blockquote>
+   <blockquote class="op" style="margin:0"><p>Dobrze zorganizowane zajęcia, wysoka intensywność, przyjazne dla początkujących.</p><cite>Tomasz Kunicki</cite></blockquote>
+  </div>
+ </div>
+</section>
+
+<section id="oddzialy">
+ <div class="wrap">
+  <div class="head"><h2>Gdzie trenujemy</h2><p>Grafik i zapisy prowadzimy w systemie Fitssey, tam też kupisz karnet.</p></div>
+  <div class="places">
+   <div class="place"><h3>Rzeszów</h3><p>ul. Hanasiewicza 10, Akademia Sportu Chikara. Krav Maga oraz Rzeszowska Szkoła Boksu.</p></div>
+   <div class="place"><h3>Cmolas</h3><p>ul. Sportowa 1, OWiR Cmolas, siłownia. Gryf Fight Club.</p></div>
+   <div class="place"><h3>Kolbuszowa</h3><p>ul. Jana Pawła II 10, basen Fregata. Gryf Fight Club.</p></div>
+  </div>
+  <div class="free">
+   <p>Pierwszy trening jest bezpłatny w miesiącach naborów: w styczniu oraz we wrześniu i październiku. Najbliższy nabór do wszystkich grup startuje w styczniu 2027.</p>
+   <a class="btn dark" href="#kontakt">Zapisz się na listę</a>
+  </div>
+ </div>
+</section>
+
+<section id="kontakt" class="grey">
+ <div class="wrap contact">
+  <div class="cinfo">
+   <h2>Zapisy i kontakt</h2>
+   <a class="tel" href="tel:+48605056988">605 056 988</a>
+   <p><a href="mailto:kursy.bezpieczenstwa@gmail.com">kursy.bezpieczenstwa@gmail.com</a></p>
+   <p>Biuro czynne w godzinach 9:00-17:00.</p>
+   <p>Podkarpacka Szkoła Krav Maga, ul. Hanasiewicza 10, Rzeszów</p>
+   <div class="map" id="map" data-src="https://www.google.com/maps?q=Hanasiewicza+10,+Rzesz%C3%B3w&amp;output=embed"></div>
+  </div>
+  <form onsubmit="event.preventDefault();this.querySelector('.note').textContent='To podgląd - formularz zacznie wysyłać wiadomości na docelowej stronie.'">
+   <div class="f2">
+    <label>Imię<input name="imie" autocomplete="given-name"></label>
+    <label>Telefon<input name="tel" type="tel" autocomplete="tel"></label>
+   </div>
+   <label>E-mail<input name="mail" type="email" autocomplete="email"></label>
+   <label>Interesuje mnie
+    <select name="grupa"><option>Kurs samoobrony dla kobiet</option><option>Grupa dla dzieci (od 6 lat)</option><option>Grupa młodzieżowa</option><option>Krav Maga dla dorosłych</option><option>Trening indywidualny</option><option>Szkolenie dla firmy lub instytucji</option></select>
+   </label>
+   <label>Wiadomość<textarea name="msg" placeholder="Np. wiek dziecka, doświadczenie, preferowany oddział"></textarea></label>
+   <button class="btn" type="submit">Wyślij zgłoszenie</button>
+   <p class="note">Odpowiadamy w godzinach pracy biura.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="fgrid">
+   <div class="fb"><img src="img/logo-biale-240.png" width="240" height="249" loading="lazy" alt="Podkarpacka Szkoła Krav Maga"><p style="margin-top:14px">Główny trener i założyciel: Andrzej Płaza</p></div>
+   <div><h4>Szkoła</h4><ul><li><a href="#oferta">Oferta</a></li><li><a href="#historia">Historia</a></li><li><a href="#kadra">Kadra</a></li><li><a href="#oddzialy">Oddziały</a></li></ul></div>
+   <div><h4>Kontakt</h4><ul><li><a href="tel:+48605056988">605 056 988</a></li><li><a href="mailto:kursy.bezpieczenstwa@gmail.com">E-mail</a></li><li>ul. Hanasiewicza 10, Rzeszów</li></ul></div>
+   <div><h4>Obserwuj</h4><ul><li><a href="https://www.facebook.com/podkarpackaszkolakravmaga" rel="noopener">Facebook</a></li><li><a href="https://www.instagram.com/podkarpackaszkolakravmaga" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@PodkarpackaSzkolaKravMaga" rel="noopener">YouTube</a></li></ul></div>
+  </div>
+  <div class="fbot">
+   <span class="plate"><b>&copy; 2003-2026</b></span>
+   <span>Podkarpacka Szkoła Krav Maga &middot; Polityka prywatności</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=kravmaga-podkarpacie.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var b=document.querySelector('.burger'),d=document.getElementById('drawer');
+ b.addEventListener('click',function(){var o=d.classList.toggle('open');b.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':''});
+ d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){d.classList.remove('open');b.setAttribute('aria-expanded','false');document.body.style.overflow=''})});
+ document.querySelectorAll('.ctrl').forEach(function(c){var r=document.getElementById(c.dataset.for),bt=c.querySelectorAll('button');
+  function step(){var f=r.firstElementChild;return f?f.getBoundingClientRect().width+16:300}
+  bt[0].addEventListener('click',function(){r.scrollBy({left:-step(),behavior:'smooth'})});
+  bt[1].addEventListener('click',function(){r.scrollBy({left:step(),behavior:'smooth'})});});
+ document.querySelectorAll('.row').forEach(function(r){var down=false,x=0,s=0,moved=false;
+  r.addEventListener('mousedown',function(e){down=true;moved=false;x=e.pageX;s=r.scrollLeft;r.classList.add('drag')});
+  window.addEventListener('mouseup',function(){if(!down)return;down=false;r.classList.remove('drag')});
+  r.addEventListener('mousemove',function(e){if(!down)return;var dx=e.pageX-x;if(Math.abs(dx)>4)moved=true;r.scrollLeft=s-dx});
+  r.addEventListener('click',function(e){if(moved){e.preventDefault();e.stopPropagation()}},true);});
+ var m=document.getElementById('map');
+ if('IntersectionObserver' in window){new IntersectionObserver(function(es,o){es.forEach(function(e){if(e.isIntersecting){var f=document.createElement('iframe');f.src=m.dataset.src;f.title='Mapa dojazdu';f.loading='lazy';m.appendChild(f);o.disconnect()}})},{rootMargin:'300px'}).observe(m)}
+ var secs=[].slice.call(document.querySelectorAll('main section[id]')),links=document.querySelectorAll('.nav a[href^="#"]:not(.btn)');
+ window.addEventListener('scroll',function(){var y=scrollY+120,cur='';secs.forEach(function(s){if(s.offsetTop<=y)cur=s.id});links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur)})},{passive:true});
+})();
+</script>
+</body>
+</html>
